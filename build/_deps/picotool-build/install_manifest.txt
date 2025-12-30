@@ -1,0 +1,7 @@
+/root/pico/pomodoro-timer/build/_deps/picotool/picotool
+/root/pico/pomodoro-timer/build/_deps/picotool/picotoolTargets.cmake
+/root/pico/pomodoro-timer/build/_deps/picotool/picotoolTargets-release.cmake
+/root/pico/pomodoro-timer/build/_deps/picotool/picotoolConfig.cmake
+/root/pico/pomodoro-timer/build/_deps/picotool/picotoolConfigVersion.cmake
+/root/pico/pomodoro-timer/build/_deps/picotool/enc_bootloader.elf
+/root/pico/pomodoro-timer/build/_deps/picotool/enc_bootloader_mbedtls.elf

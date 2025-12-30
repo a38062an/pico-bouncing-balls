@@ -1,0 +1,2 @@
+/root/pico/pomodoro-timer/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/edit_cache.dir
+/root/pico/pomodoro-timer/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/rebuild_cache.dir

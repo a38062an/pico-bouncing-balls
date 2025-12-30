@@ -1,0 +1,5 @@
+/root/pico/pomodoro-timer/build/pioasm-install/pioasm/pioasm
+/root/pico/pomodoro-timer/build/pioasm-install/pioasm/pioasmTargets.cmake
+/root/pico/pomodoro-timer/build/pioasm-install/pioasm/pioasmTargets-release.cmake
+/root/pico/pomodoro-timer/build/pioasm-install/pioasm/pioasmConfig.cmake
+/root/pico/pomodoro-timer/build/pioasm-install/pioasm/pioasmConfigVersion.cmake

@@ -1,0 +1,14 @@
+# Target labels
+ picotoolBuild
+# Source files and their labels
+/root/pico/pomodoro-timer/build/CMakeFiles/picotoolBuild
+/root/pico/pomodoro-timer/build/CMakeFiles/picotoolBuild.rule
+/root/pico/pomodoro-timer/build/CMakeFiles/picotoolBuild-complete.rule
+/root/pico/pomodoro-timer/build/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule
+/root/pico/pomodoro-timer/build/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule
+/root/pico/pomodoro-timer/build/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule
+/root/pico/pomodoro-timer/build/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule
+/root/pico/pomodoro-timer/build/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule
+/root/pico/pomodoro-timer/build/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule
+/root/pico/pomodoro-timer/build/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule
+/root/pico/pomodoro-timer/build/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule
