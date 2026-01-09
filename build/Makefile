@@ -130,30 +130,17 @@ pomodoro_timer/fast:
 .PHONY : pomodoro_timer/fast
 
 #=============================================================================
-# Target rules for targets named picotoolForceReconfigure
+# Target rules for targets named pomodoro_timer_hub75_pio_h
 
 # Build rule for target.
-picotoolForceReconfigure: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 picotoolForceReconfigure
-.PHONY : picotoolForceReconfigure
+pomodoro_timer_hub75_pio_h: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pomodoro_timer_hub75_pio_h
+.PHONY : pomodoro_timer_hub75_pio_h
 
 # fast build rule for target.
-picotoolForceReconfigure/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/picotoolForceReconfigure.dir/build.make CMakeFiles/picotoolForceReconfigure.dir/build
-.PHONY : picotoolForceReconfigure/fast
-
-#=============================================================================
-# Target rules for targets named picotoolBuild
-
-# Build rule for target.
-picotoolBuild: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 picotoolBuild
-.PHONY : picotoolBuild
-
-# fast build rule for target.
-picotoolBuild/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/picotoolBuild.dir/build.make CMakeFiles/picotoolBuild.dir/build
-.PHONY : picotoolBuild/fast
+pomodoro_timer_hub75_pio_h/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pomodoro_timer_hub75_pio_h.dir/build.make CMakeFiles/pomodoro_timer_hub75_pio_h.dir/build
+.PHONY : pomodoro_timer_hub75_pio_h/fast
 
 #=============================================================================
 # Target rules for targets named bs2_default
@@ -193,19 +180,6 @@ bs2_default_library: cmake_check_build_system
 bs2_default_library/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build
 .PHONY : bs2_default_library/fast
-
-#=============================================================================
-# Target rules for targets named pioasmBuild
-
-# Build rule for target.
-pioasmBuild: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pioasmBuild
-.PHONY : pioasmBuild
-
-# fast build rule for target.
-pioasmBuild/fast:
-	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/build
-.PHONY : pioasmBuild/fast
 
 #=============================================================================
 # Target rules for targets named cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
@@ -4137,6 +4111,30 @@ root/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pomodoro_timer.dir/build.make CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
 .PHONY : root/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
 
+root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.o: root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+.PHONY : root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.o
+
+# target to build an object file
+root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pomodoro_timer.dir/build.make CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+.PHONY : root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+
+root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i: root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+.PHONY : root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i
+
+# target to preprocess a source file
+root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pomodoro_timer.dir/build.make CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+.PHONY : root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+
+root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s: root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+.PHONY : root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s
+
+# target to generate assembly for a file
+root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pomodoro_timer.dir/build.make CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+.PHONY : root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+
 root/pico/pico-sdk/src/rp2_common/pico_platform_common/common.o: root/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
 .PHONY : root/pico/pico-sdk/src/rp2_common/pico_platform_common/common.o
 
@@ -4497,6 +4495,30 @@ root/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pomodoro_timer.dir/build.make CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : root/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
+src/hub75.o: src/hub75.cpp.o
+.PHONY : src/hub75.o
+
+# target to build an object file
+src/hub75.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pomodoro_timer.dir/build.make CMakeFiles/pomodoro_timer.dir/src/hub75.cpp.o
+.PHONY : src/hub75.cpp.o
+
+src/hub75.i: src/hub75.cpp.i
+.PHONY : src/hub75.i
+
+# target to preprocess a source file
+src/hub75.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pomodoro_timer.dir/build.make CMakeFiles/pomodoro_timer.dir/src/hub75.cpp.i
+.PHONY : src/hub75.cpp.i
+
+src/hub75.s: src/hub75.cpp.s
+.PHONY : src/hub75.s
+
+# target to generate assembly for a file
+src/hub75.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pomodoro_timer.dir/build.make CMakeFiles/pomodoro_timer.dir/src/hub75.cpp.s
+.PHONY : src/hub75.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -4532,9 +4554,7 @@ help:
 	@echo "... bs2_default_bin"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... pico_status_led_ws2812_pio_h"
-	@echo "... picotoolBuild"
-	@echo "... picotoolForceReconfigure"
-	@echo "... pioasmBuild"
+	@echo "... pomodoro_timer_hub75_pio_h"
 	@echo "... bs2_default"
 	@echo "... bs2_default_library"
 	@echo "... pomodoro_timer"
@@ -5026,6 +5046,9 @@ help:
 	@echo "... root/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i"
 	@echo "... root/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s"
 	@echo "... root/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o"
+	@echo "... root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.o"
+	@echo "... root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i"
+	@echo "... root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s"
 	@echo "... root/pico/pico-sdk/src/rp2_common/pico_platform_common/common.o"
 	@echo "... root/pico/pico-sdk/src/rp2_common/pico_platform_common/common.i"
 	@echo "... root/pico/pico-sdk/src/rp2_common/pico_platform_common/common.s"
@@ -5071,6 +5094,9 @@ help:
 	@echo "... root/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o"
 	@echo "... root/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
 	@echo "... root/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
+	@echo "... src/hub75.o"
+	@echo "... src/hub75.i"
+	@echo "... src/hub75.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -50,6 +50,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "LIB_PICO_MALLOC=1"
   "LIB_PICO_MEM_OPS=1"
   "LIB_PICO_MEM_OPS_PICO=1"
+  "LIB_PICO_MULTICORE=1"
   "LIB_PICO_NEWLIB_INTERFACE=1"
   "LIB_PICO_PLATFORM=1"
   "LIB_PICO_PLATFORM_COMMON=1"
@@ -92,6 +93,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  "."
   "/root/pico/pomodoro-timer"
   "/root/pico/pico-sdk/src/rp2_common/pico_atomic/include"
   "/root/pico/pico-sdk/lib/tinyusb/src"
@@ -327,6 +329,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/root/pico/pico-sdk/src/rp2_common/pico_float/float_math.c" "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o" "gcc" "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o.d"
   "/root/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c" "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o" "gcc" "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o.d"
   "/root/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c" "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o" "gcc" "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o.d"
+  "/root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c" "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o" "gcc" "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o.d"
   "/root/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c" "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o" "gcc" "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o.d"
   "/root/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c" "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o" "gcc" "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o.d"
   "/root/pico/pico-sdk/src/rp2_common/pico_printf/printf.c" "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o" "gcc" "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o.d"
@@ -343,6 +346,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/root/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o" "gcc" "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o.d"
   "/root/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o" "gcc" "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d"
   "/root/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp" "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o" "gcc" "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d"
+  "/root/pico/pomodoro-timer/src/hub75.cpp" "CMakeFiles/pomodoro_timer.dir/src/hub75.cpp.o" "gcc" "CMakeFiles/pomodoro_timer.dir/src/hub75.cpp.o.d"
   "/root/pico/pomodoro-timer/src/main.cpp" "CMakeFiles/pomodoro_timer.dir/src/main.cpp.o" "gcc" "CMakeFiles/pomodoro_timer.dir/src/main.cpp.o.d"
   )
 

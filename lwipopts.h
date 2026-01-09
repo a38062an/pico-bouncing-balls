@@ -1,6 +1,7 @@
 #ifndef _LWIPOPTS_H
 #define _LWIPOPTS_H
 
+// File needed to get lwip to compile on the pico (dependency of cyw43_arch)
 // Common settings used in most of the pico_w examples
 // (see https://www.nongnu.org/lwip/2_1_x/group__lwip__opts.html for details)
 

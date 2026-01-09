@@ -1,0 +1,43 @@
+; Copyright (c) 2020 Raspberry Pi (Trading) Ltd.
+;
+; SPDX-License-Identifier: BSD-3-Clause
+;
+.pio_version 0 
+
+.program hub75_data_rgb888
+.side_set 1
+
+; 8-bit Data Output (Mixed Pins)
+; Mapped to GP2...GP9
+; Side-set pin is CLK (GP11)
+
+public entry_point:
+.wrap_target
+    pull             side 0 ; Pull 32 bits from FIFO
+    out pins, 8      side 0 ; Output 8 bits (Covering R1,G1,B1,R2...G2,B2)
+    nop              side 1 ; Clock High
+    nop              side 0 ; Clock Low
+.wrap
+
+% c-sdk {
+static inline void hub75_data_rgb888_program_init(PIO pio, uint sm, uint offset, uint data_base_pin, uint clock_pin) {
+    // Set 8 data pins as output (GP2-GP9)
+    pio_sm_set_consecutive_pindirs(pio, sm, data_base_pin, 8, true);
+    // Set Clock as output
+    pio_sm_set_consecutive_pindirs(pio, sm, clock_pin, 1, true);
+    
+    // Initialize GPIOs
+    for (uint i = data_base_pin; i < data_base_pin + 8; ++i)
+        pio_gpio_init(pio, i);
+    pio_gpio_init(pio, clock_pin);
+
+    pio_sm_config c = hub75_data_rgb888_program_get_default_config(offset);
+    sm_config_set_out_pins(&c, data_base_pin, 8);
+    sm_config_set_sideset_pins(&c, clock_pin);
+    sm_config_set_fifo_join(&c, PIO_FIFO_JOIN_TX);
+    sm_config_set_out_shift(&c, true, true, 32);
+    
+    pio_sm_init(pio, sm, offset, &c);
+    pio_sm_set_enabled(pio, sm, true);
+}
+%}

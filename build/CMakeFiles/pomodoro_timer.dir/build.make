@@ -83,10 +83,24 @@ CMakeFiles/pomodoro_timer.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pomodoro_timer.dir/src/main.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pico/pomodoro-timer/src/main.cpp -o CMakeFiles/pomodoro_timer.dir/src/main.cpp.s
 
+CMakeFiles/pomodoro_timer.dir/src/hub75.cpp.o: CMakeFiles/pomodoro_timer.dir/flags.make
+CMakeFiles/pomodoro_timer.dir/src/hub75.cpp.o: /root/pico/pomodoro-timer/src/hub75.cpp
+CMakeFiles/pomodoro_timer.dir/src/hub75.cpp.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pomodoro_timer.dir/src/hub75.cpp.o"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/src/hub75.cpp.o -MF CMakeFiles/pomodoro_timer.dir/src/hub75.cpp.o.d -o CMakeFiles/pomodoro_timer.dir/src/hub75.cpp.o -c /root/pico/pomodoro-timer/src/hub75.cpp
+
+CMakeFiles/pomodoro_timer.dir/src/hub75.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pomodoro_timer.dir/src/hub75.cpp.i"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pico/pomodoro-timer/src/hub75.cpp > CMakeFiles/pomodoro_timer.dir/src/hub75.cpp.i
+
+CMakeFiles/pomodoro_timer.dir/src/hub75.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pomodoro_timer.dir/src/hub75.cpp.s"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pico/pomodoro-timer/src/hub75.cpp -o CMakeFiles/pomodoro_timer.dir/src/hub75.cpp.s
+
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: /root/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdlib/stdl
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: /root/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -c /root/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_gpio/gp
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o: /root/pico/pico-sdk/src/rp2040/pico_platform/platform.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o -c /root/pico/pico-sdk/src/rp2040/pico_platform/platform.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2040/pico_platform/platfo
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o: /root/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_platform_co
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: /root/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_platform_pa
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/hardware_claim/claim.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/hardware_claim/claim.c.o: /root/pico/pico-sdk/src/common/hardware_claim/claim.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/hardware_claim/claim.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/hardware_claim/claim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/hardware_claim/claim.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/hardware_claim/claim.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/hardware_claim/claim.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/hardware_claim/claim.c.o -c /root/pico/pico-sdk/src/common/hardware_claim/claim.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/hardware_claim/claim.c.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/hardware_claim/claim
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: /root/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -c /root/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_sync/sy
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: /root/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -c /root/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_sync_sp
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: /root/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -c /root/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -211,7 +225,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_irq/irq
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: /root/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building ASM object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building ASM object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o   -c /root/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -225,7 +239,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_irq/irq
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/sem.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/sem.c.o: /root/pico/pico-sdk/src/common/pico_sync/sem.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/sem.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/sem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/sem.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/sem.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/sem.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/sem.c.o -c /root/pico/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -239,7 +253,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/sem.c.s: c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/lock_core.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/lock_core.c.o: /root/pico/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/lock_core.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/lock_core.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/lock_core.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/lock_core.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/lock_core.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/lock_core.c.o -c /root/pico/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -253,7 +267,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/lock_core.
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/mutex.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/mutex.c.o: /root/pico/pico-sdk/src/common/pico_sync/mutex.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/mutex.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/mutex.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/mutex.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/mutex.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/mutex.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/mutex.c.o -c /root/pico/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -267,7 +281,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/critical_section.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/critical_section.c.o: /root/pico/pico-sdk/src/common/pico_sync/critical_section.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/critical_section.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/critical_section.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/critical_section.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/critical_section.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/critical_section.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/critical_section.c.o -c /root/pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -281,7 +295,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_sync/critical_s
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_time/time.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_time/time.c.o: /root/pico/pico-sdk/src/common/pico_time/time.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_time/time.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_time/time.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_time/time.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_time/time.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_time/time.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_time/time.c.o -c /root/pico/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -295,7 +309,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_time/time.c.s: 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o: /root/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o -c /root/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -309,7 +323,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_time/timeout_he
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: /root/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -c /root/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -323,7 +337,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_timer/t
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/datetime.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/datetime.c.o: /root/pico/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/datetime.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/datetime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/datetime.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/datetime.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/datetime.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/datetime.c.o -c /root/pico/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -337,7 +351,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/pheap.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/pheap.c.o: /root/pico/pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/pheap.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/pheap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/pheap.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/pheap.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/pheap.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/pheap.c.o -c /root/pico/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -351,7 +365,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/pheap.c.s:
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/queue.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/queue.c.o: /root/pico/pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/queue.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/queue.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/queue.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/queue.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/queue.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/queue.c.o -c /root/pico/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -365,7 +379,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/common/pico_util/queue.c.s:
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: /root/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -c /root/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -379,7 +393,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_uart/ua
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: /root/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -c /root/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -393,7 +407,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_clocks/
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: /root/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -c /root/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -407,7 +421,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_pll/pll
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: /root/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -c /root/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -421,7 +435,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_vreg/vr
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: /root/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -c /root/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -435,7 +449,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_watchdo
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: /root/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -c /root/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i: cmake_force
@@ -449,7 +463,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_ticks/t
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: /root/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -463,7 +477,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bootrom/boo
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: /root/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i: cmake_force
@@ -477,7 +491,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bootrom/boo
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: /root/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -c /root/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i: cmake_force
@@ -491,7 +505,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_boot_lo
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o: /root/pico/pico-sdk/src/rp2_common/pico_flash/flash.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_flash/flash.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i: cmake_force
@@ -505,7 +519,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_flash/flash
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: /root/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -c /root/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -518,7 +532,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_xosc/xo
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: /root/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o   -c /root/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -532,7 +546,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_divider
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: /root/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -546,7 +560,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime/run
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: /root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i: cmake_force
@@ -560,7 +574,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_ini
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: /root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i: cmake_force
@@ -574,7 +588,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_ini
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: /root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i: cmake_force
@@ -587,7 +601,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_runtime_ini
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: /root/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o   -c /root/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -600,7 +614,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: /root/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o   -c /root/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i: cmake_force
@@ -613,7 +627,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_divider/div
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: /root/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o   -c /root/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i: cmake_force
@@ -627,7 +641,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/doub
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: /root/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i: cmake_force
@@ -641,7 +655,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/doub
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o: /root/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -654,7 +668,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/doub
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: /root/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o   -c /root/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i: cmake_force
@@ -667,7 +681,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_double/doub
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: /root/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o   -c /root/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -680,7 +694,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_int64_ops/p
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: /root/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o   -c /root/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i: cmake_force
@@ -694,7 +708,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: /root/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i: cmake_force
@@ -708,7 +722,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o: /root/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -721,7 +735,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: /root/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o   -c /root/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i: cmake_force
@@ -735,7 +749,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_float/float
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: /root/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i: cmake_force
@@ -748,7 +762,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_malloc/mall
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: /root/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building ASM object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building ASM object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o   -c /root/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -762,7 +776,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: /root/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i: cmake_force
@@ -776,7 +790,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_atomic/atom
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: /root/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -c /root/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i: cmake_force
@@ -790,7 +804,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cxx_options
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: /root/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i: cmake_force
@@ -804,7 +818,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_standard_bi
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o: /root/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -817,7 +831,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_printf/prin
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: /root/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building ASM object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building ASM object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o   -c /root/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i: cmake_force
@@ -831,7 +845,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: /root/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i: cmake_force
@@ -845,7 +859,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_clib_interf
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: /root/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -859,7 +873,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio/stdio
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: /root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -873,7 +887,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/r
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: /root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -887,7 +901,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/s
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: /root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -901,7 +915,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdio_usb/s
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: /root/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -915,7 +929,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_unique_id/u
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: /root/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -c /root/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -929,7 +943,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_flash/f
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: /root/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -c /root/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i: cmake_force
@@ -943,7 +957,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_xip_cac
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: /root/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -c /root/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -957,7 +971,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/portable/raspbe
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: /root/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -c /root/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -971,7 +985,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/portable/raspbe
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o: /root/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o -c /root/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -985,7 +999,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: /root/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -c /root/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -999,7 +1013,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/device/usbd_con
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: /root/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -c /root/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -1013,7 +1027,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/audio/aud
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: /root/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -c /root/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -1027,7 +1041,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_d
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: /root/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -c /root/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -1041,7 +1055,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_d
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: /root/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -c /root/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -1055,7 +1069,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_r
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: /root/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -c /root/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -1069,7 +1083,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_d
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: /root/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -c /root/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -1083,7 +1097,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/midi/midi
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: /root/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -c /root/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -1097,7 +1111,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_d
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: /root/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -c /root/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -1111,7 +1125,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_r
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: /root/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -c /root/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -1125,7 +1139,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_d
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: /root/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -c /root/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -1139,7 +1153,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/us
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: /root/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -c /root/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -1153,7 +1167,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/vendor/ve
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: /root/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -c /root/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -1167,7 +1181,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/class/video/vid
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/tusb.c.o: /root/pico/pico-sdk/lib/tinyusb/src/tusb.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/tusb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/tusb.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/tusb.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/tusb.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/tusb.c.o -c /root/pico/pico-sdk/lib/tinyusb/src/tusb.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -1181,7 +1195,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: /root/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -c /root/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -1195,7 +1209,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/tinyusb/src/common/tusb_fif
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: /root/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1209,7 +1223,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o: /root/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i: cmake_force
@@ -1223,7 +1237,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_n
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o: /root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i: cmake_force
@@ -1237,7 +1251,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_async_conte
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o: /root/pico/pico-sdk/src/rp2_common/pico_rand/rand.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_rand/rand.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i: cmake_force
@@ -1251,7 +1265,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_rand/rand.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/init.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/init.c.o: /root/pico/pico-sdk/lib/lwip/src/core/init.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/init.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/init.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/init.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/init.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/init.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/init.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/init.c.i: cmake_force
@@ -1265,7 +1279,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/init.c.s: cma
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/def.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/def.c.o: /root/pico/pico-sdk/lib/lwip/src/core/def.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/def.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/def.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/def.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/def.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/def.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/def.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/def.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/def.c.i: cmake_force
@@ -1279,7 +1293,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/def.c.s: cmak
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/dns.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/dns.c.o: /root/pico/pico-sdk/lib/lwip/src/core/dns.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/dns.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/dns.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/dns.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/dns.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/dns.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/dns.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/dns.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/dns.c.i: cmake_force
@@ -1293,7 +1307,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/dns.c.s: cmak
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o: /root/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i: cmake_force
@@ -1307,7 +1321,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ip.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ip.c.o: /root/pico/pico-sdk/lib/lwip/src/core/ip.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ip.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ip.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ip.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ip.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ip.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ip.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/ip.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ip.c.i: cmake_force
@@ -1321,7 +1335,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ip.c.s: cmake
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/mem.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/mem.c.o: /root/pico/pico-sdk/lib/lwip/src/core/mem.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/mem.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/mem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/mem.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/mem.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/mem.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/mem.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/mem.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/mem.c.i: cmake_force
@@ -1335,7 +1349,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/mem.c.s: cmak
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/memp.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/memp.c.o: /root/pico/pico-sdk/lib/lwip/src/core/memp.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/memp.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/memp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/memp.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/memp.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/memp.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/memp.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/memp.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/memp.c.i: cmake_force
@@ -1349,7 +1363,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/memp.c.s: cma
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/netif.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/netif.c.o: /root/pico/pico-sdk/lib/lwip/src/core/netif.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/netif.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/netif.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/netif.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/netif.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/netif.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/netif.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/netif.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/netif.c.i: cmake_force
@@ -1363,7 +1377,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/netif.c.s: cm
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o: /root/pico/pico-sdk/lib/lwip/src/core/pbuf.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/pbuf.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i: cmake_force
@@ -1377,7 +1391,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s: cma
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/raw.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/raw.c.o: /root/pico/pico-sdk/lib/lwip/src/core/raw.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/raw.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/raw.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/raw.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/raw.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/raw.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/raw.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/raw.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/raw.c.i: cmake_force
@@ -1391,7 +1405,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/raw.c.s: cmak
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/stats.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/stats.c.o: /root/pico/pico-sdk/lib/lwip/src/core/stats.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/stats.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/stats.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/stats.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/stats.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/stats.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/stats.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/stats.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/stats.c.i: cmake_force
@@ -1405,7 +1419,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/stats.c.s: cm
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/sys.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/sys.c.o: /root/pico/pico-sdk/lib/lwip/src/core/sys.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/sys.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/sys.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/sys.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/sys.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/sys.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/sys.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/sys.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/sys.c.i: cmake_force
@@ -1419,7 +1433,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/sys.c.s: cmak
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp.c.o: /root/pico/pico-sdk/lib/lwip/src/core/altcp.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/altcp.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp.c.i: cmake_force
@@ -1433,7 +1447,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp.c.s: cm
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o: /root/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i: cmake_force
@@ -1447,7 +1461,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o: /root/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i: cmake_force
@@ -1461,7 +1475,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp.c.o: /root/pico/pico-sdk/lib/lwip/src/core/tcp.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/tcp.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp.c.i: cmake_force
@@ -1475,7 +1489,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp.c.s: cmak
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o: /root/pico/pico-sdk/lib/lwip/src/core/tcp_in.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/tcp_in.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i: cmake_force
@@ -1489,7 +1503,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s: c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o: /root/pico/pico-sdk/lib/lwip/src/core/tcp_out.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/tcp_out.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i: cmake_force
@@ -1503,7 +1517,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s: 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o: /root/pico/pico-sdk/lib/lwip/src/core/timeouts.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/timeouts.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i: cmake_force
@@ -1517,7 +1531,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s:
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/udp.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/udp.c.o: /root/pico/pico-sdk/lib/lwip/src/core/udp.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/udp.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/udp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/udp.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/udp.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/udp.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/udp.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/udp.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/udp.c.i: cmake_force
@@ -1531,7 +1545,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/udp.c.s: cmak
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o: /root/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i: cmake_force
@@ -1545,7 +1559,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o: /root/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i: cmake_force
@@ -1559,7 +1573,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o: /root/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i: cmake_force
@@ -1573,7 +1587,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o: /root/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i: cmake_force
@@ -1587,7 +1601,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o: /root/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i: cmake_force
@@ -1601,7 +1615,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o: /root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i: cmake_force
@@ -1615,7 +1629,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o: /root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i: cmake_force
@@ -1629,7 +1643,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s:
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o: /root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i: cmake_force
@@ -1643,7 +1657,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o: /root/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i: cmake_force
@@ -1657,7 +1671,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s:
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o: /root/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i: cmake_force
@@ -1671,7 +1685,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o: /root/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i: cmake_force
@@ -1685,7 +1699,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o: /root/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i: cmake_force
@@ -1699,7 +1713,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o: /root/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i: cmake_force
@@ -1713,7 +1727,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o: /root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i: cmake_force
@@ -1727,7 +1741,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s:
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o: /root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i: cmake_force
@@ -1741,7 +1755,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o: /root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i: cmake_force
@@ -1755,7 +1769,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o: /root/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i: cmake_force
@@ -1769,7 +1783,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o: /root/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o -c /root/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i: cmake_force
@@ -1783,7 +1797,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s:
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o: /root/pico/pico-sdk/lib/lwip/src/api/api_lib.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o -c /root/pico/pico-sdk/lib/lwip/src/api/api_lib.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i: cmake_force
@@ -1797,7 +1811,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s: c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o: /root/pico/pico-sdk/lib/lwip/src/api/api_msg.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o -c /root/pico/pico-sdk/lib/lwip/src/api/api_msg.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i: cmake_force
@@ -1811,7 +1825,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s: c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/err.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/err.c.o: /root/pico/pico-sdk/lib/lwip/src/api/err.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/err.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/err.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/err.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/err.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/err.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/err.c.o -c /root/pico/pico-sdk/lib/lwip/src/api/err.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/err.c.i: cmake_force
@@ -1825,7 +1839,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/err.c.s: cmake
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/if_api.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/if_api.c.o: /root/pico/pico-sdk/lib/lwip/src/api/if_api.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/if_api.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/if_api.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/if_api.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/if_api.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/if_api.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/if_api.c.o -c /root/pico/pico-sdk/lib/lwip/src/api/if_api.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/if_api.c.i: cmake_force
@@ -1839,7 +1853,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/if_api.c.s: cm
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o: /root/pico/pico-sdk/lib/lwip/src/api/netbuf.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o -c /root/pico/pico-sdk/lib/lwip/src/api/netbuf.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i: cmake_force
@@ -1853,7 +1867,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s: cm
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netdb.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netdb.c.o: /root/pico/pico-sdk/lib/lwip/src/api/netdb.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netdb.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netdb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netdb.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netdb.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netdb.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netdb.c.o -c /root/pico/pico-sdk/lib/lwip/src/api/netdb.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netdb.c.i: cmake_force
@@ -1867,7 +1881,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netdb.c.s: cma
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o: /root/pico/pico-sdk/lib/lwip/src/api/netifapi.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o -c /root/pico/pico-sdk/lib/lwip/src/api/netifapi.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i: cmake_force
@@ -1881,7 +1895,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s: 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/sockets.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/sockets.c.o: /root/pico/pico-sdk/lib/lwip/src/api/sockets.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/sockets.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/sockets.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/sockets.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/sockets.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/sockets.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/sockets.c.o -c /root/pico/pico-sdk/lib/lwip/src/api/sockets.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/sockets.c.i: cmake_force
@@ -1895,7 +1909,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/sockets.c.s: c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o: /root/pico/pico-sdk/lib/lwip/src/api/tcpip.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o -c /root/pico/pico-sdk/lib/lwip/src/api/tcpip.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i: cmake_force
@@ -1909,7 +1923,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s: cma
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ethernet.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ethernet.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i: cmake_force
@@ -1923,7 +1937,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i: cmake_force
@@ -1937,7 +1951,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i: cmake_force
@@ -1951,7 +1965,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/slipif.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/slipif.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i: cmake_force
@@ -1965,7 +1979,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s: 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i: cmake_force
@@ -1979,7 +1993,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6_comm
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i: cmake_force
@@ -1993,7 +2007,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s:
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i: cmake_force
@@ -2007,7 +2021,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/zepif.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/zepif.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i: cmake_force
@@ -2021,7 +2035,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s: c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i: cmake_force
@@ -2035,7 +2049,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i: cmake_force
@@ -2049,7 +2063,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s:
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i: cmake_force
@@ -2063,7 +2077,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i: cmake_force
@@ -2077,7 +2091,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i: cmake_force
@@ -2091,7 +2105,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i: cmake_force
@@ -2105,7 +2119,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i: cmake_force
@@ -2119,7 +2133,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s:
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i: cmake_force
@@ -2133,7 +2147,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s:
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i: cmake_force
@@ -2147,7 +2161,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i: cmake_force
@@ -2161,7 +2175,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s:
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i: cmake_force
@@ -2175,7 +2189,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i: cmake_force
@@ -2189,7 +2203,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i: cmake_force
@@ -2203,7 +2217,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s:
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i: cmake_force
@@ -2217,7 +2231,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i: cmake_force
@@ -2231,7 +2245,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i: cmake_force
@@ -2245,7 +2259,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/multilin
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i: cmake_force
@@ -2259,7 +2273,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s:
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i: cmake_force
@@ -2273,7 +2287,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i: cmake_force
@@ -2287,7 +2301,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i: cmake_force
@@ -2301,7 +2315,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i: cmake_force
@@ -2315,7 +2329,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i: cmake_force
@@ -2329,7 +2343,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i: cmake_force
@@ -2343,7 +2357,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i: cmake_force
@@ -2357,7 +2371,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i: cmake_force
@@ -2371,7 +2385,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s: 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i: cmake_force
@@ -2385,7 +2399,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i: cmake_force
@@ -2399,7 +2413,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i: cmake_force
@@ -2413,7 +2427,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i: cmake_force
@@ -2427,7 +2441,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o: /root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o -c /root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i: cmake_force
@@ -2441,7 +2455,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: /root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
@@ -2455,7 +2469,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: /root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
@@ -2469,7 +2483,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: /root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
@@ -2483,7 +2497,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: /root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
@@ -2497,7 +2511,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: /root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i: cmake_force
@@ -2511,7 +2525,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_drive
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o: /root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o -c /root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i: cmake_force
@@ -2525,7 +2539,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o: /root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o -c /root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i: cmake_force
@@ -2539,7 +2553,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stat
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o: /root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o -c /root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i: cmake_force
@@ -2553,7 +2567,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o: /root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o -c /root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i: cmake_force
@@ -2567,7 +2581,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: /root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i: cmake_force
@@ -2581,7 +2595,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_drive
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: /root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i: cmake_force
@@ -2595,7 +2609,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_drive
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: /root/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o -c /root/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
@@ -2609,7 +2623,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_pio/pio
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: /root/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -c /root/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
@@ -2623,7 +2637,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_dma/dma
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: /root/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o -c /root/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
@@ -2637,7 +2651,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_excepti
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: /root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i: cmake_force
@@ -2651,7 +2665,7 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_drive
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: /root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
 
 CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i: cmake_force
@@ -2662,9 +2676,24 @@ CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_async_conte
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
 
+CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: CMakeFiles/pomodoro_timer.dir/flags.make
+CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: /root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
+CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: CMakeFiles/pomodoro_timer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o -MF CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o.d -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o -c /root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
+
+CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c > CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+
+CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c -o CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+
 # Object files for target pomodoro_timer
 pomodoro_timer_OBJECTS = \
 "CMakeFiles/pomodoro_timer.dir/src/main.cpp.o" \
+"CMakeFiles/pomodoro_timer.dir/src/hub75.cpp.o" \
 "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o" \
 "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o" \
 "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o" \
@@ -2849,12 +2878,14 @@ pomodoro_timer_OBJECTS = \
 "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o" \
 "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o" \
 "CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o" \
-"CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o"
+"CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o" \
+"CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o"
 
 # External object files for target pomodoro_timer
 pomodoro_timer_EXTERNAL_OBJECTS =
 
 pomodoro_timer.elf: CMakeFiles/pomodoro_timer.dir/src/main.cpp.o
+pomodoro_timer.elf: CMakeFiles/pomodoro_timer.dir/src/hub75.cpp.o
 pomodoro_timer.elf: CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 pomodoro_timer.elf: CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 pomodoro_timer.elf: CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o
@@ -3040,11 +3071,12 @@ pomodoro_timer.elf: CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_com
 pomodoro_timer.elf: CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
 pomodoro_timer.elf: CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o
 pomodoro_timer.elf: CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
+pomodoro_timer.elf: CMakeFiles/pomodoro_timer.dir/root/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
 pomodoro_timer.elf: CMakeFiles/pomodoro_timer.dir/build.make
 pomodoro_timer.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 pomodoro_timer.elf: /root/pico/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 pomodoro_timer.elf: CMakeFiles/pomodoro_timer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Linking CXX executable pomodoro_timer.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/pico/pomodoro-timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Linking CXX executable pomodoro_timer.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pomodoro_timer.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objdump -h /root/pico/pomodoro-timer/build/pomodoro_timer.elf > pomodoro_timer.dis
 	/usr/bin/arm-none-eabi-objdump -d /root/pico/pomodoro-timer/build/pomodoro_timer.elf >> pomodoro_timer.dis
